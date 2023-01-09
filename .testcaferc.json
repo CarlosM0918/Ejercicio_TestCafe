@@ -1,6 +1,5 @@
 {
     "browsers": "edge:headless",
-    "version": "108.0.1462.76",
     "src": "Ejercicio/Tests/test1.js",
     "baseUrl": "http://localhost:3001/",
     "skipJsErrors": true,
@@ -9,7 +8,7 @@
         "urlDeviceID": "http://localhost:3000/devices/"
     },
     "reporter": {
-        "name": "html",
+        "name": "jenkins",
         "output": "Reports/reportTest1.html"
     }
 }
